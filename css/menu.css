@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
+
 
 img{
     width: 250px;
@@ -56,6 +59,7 @@ header a:hover {
 .dish-price{
     display: flex;
     justify-content: space-between;
+
 }
 
 .dish-price ul{
@@ -66,6 +70,7 @@ header a:hover {
 
 }
 
+
 .text-field button{
     padding: 3px;
     font-size: 15px;
@@ -73,15 +78,24 @@ header a:hover {
     align-items: center;
     width: 120px;
     margin-top: 10px;
+    font-family: poppins;
+}
+.text-field button:hover {
+    filter: brightness(80%) contrast(100%);
+    transition: all 0.3s ease-in-out;
+    color: #C44B2C;
 }
 .middle-menu{
     padding: 70px;
     background-color: #F4E4C5;
 }
 .middle-menu h2 {
-    margin-top: -40px;
-    margin-bottom: 40px;
+    margin-top: -45px;
+    margin-bottom: 15px;
     text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+    font-family: poppins;
 }
 .middle-menu img {
     width: 140px;
@@ -103,7 +117,7 @@ header a:hover {
 }
 
 .footer {
-    background-color: #dacfc0;
+    background-color: #c9b79f;
     margin-top: -7px;
     padding-bottom: 30px;
 }
