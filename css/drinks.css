@@ -1,0 +1,41 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #DBD4CB;
+    font-family: 'Times New Roman', Times, serif;
+}
+main h1{
+    font-style: oblique;
+    font-size: 40px;
+    margin-bottom: -40px;
+}
+main p {
+    font-weight: 600;
+    width: 250px;
+    margin-top: 60px;
+}
+img {
+    width: 110px;
+}
+
+.milk-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+}
+.juice-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+}
+
+.main-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}

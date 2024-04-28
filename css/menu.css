@@ -38,11 +38,14 @@ header ul {
 
 
 
-a {
+header a {
     color: #ffffff;
     text-decoration: none;
 }
-
+button a{
+    text-decoration: none;
+    color: #251F1D;
+}
 header a:hover {
     filter: brightness(80%) contrast(100%);
     color: #deb887;
