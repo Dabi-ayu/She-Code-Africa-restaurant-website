@@ -10,6 +10,7 @@
     align-items: center;
 }
 
+
 main img{
     width: 100px;
     margin-top: 10px;
@@ -26,3 +27,14 @@ main img{
     width: 100px;
 }
 
+.main-course-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-1 h2{
+text-align: center;
+font-size: 25px;
+color: #9D673E;
+font-family: poppins;
+}
