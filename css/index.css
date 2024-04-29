@@ -85,7 +85,7 @@ transition: all 0.3s ease-in-out;
 position: absolute;
 top: 200px;
 left: 400px;
-color: #fff;
+color:#fff;
 font-family: Roboto;
 }
 .welcome-text h2{
@@ -93,7 +93,11 @@ font-family: Roboto;
     top: 250px;
     left: 260px;
     color: #fff;
-    font-family: Roboto;
+    background-color: #a7573d;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: poppins;
 }
 .welcome-blog{
     position: absolute;
