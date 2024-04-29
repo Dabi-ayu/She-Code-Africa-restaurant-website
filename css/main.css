@@ -50,3 +50,49 @@ border-radius: 5px 10px 5px 25px;
 .section-2 .dish-wrapper{
     padding: 15px;
 }
+.section-1-2{
+    margin-top: 10px;
+}
+.section-1-2 h2{
+    color: #000000;
+    margin-top: 60px;
+}
+.section-1-2 img{
+border-radius: 50%;
+border-top:5px solid #000000;
+padding: 8px;
+}
+.salad-sample{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    
+}
+.salad-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.salad-text{
+    margin-top: 10px;
+}
+.salad-text button {
+    border-radius: 50%;
+    padding: 8px;
+    color: white;
+    background-color: #000000;
+}
+.salad-text h3{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: poppins;
+}
+.salad-text p{
+    margin-top: -30px;
+}
+.snack-color h2 {
+    color:#FFB754 ;
+}
+.snack-color button{
+    background-color: #FFB754;
+    border: 1px solid #FFB754;
+}
