@@ -122,3 +122,28 @@ font-family: Roboto;
 filter: brightness(80%) contrast(100%);
 transition: all 0.3s ease-in-out;
 }
+
+@media (max-width:768px){
+
+.background-img{
+    margin: 0 auto;
+    align-items: center;
+}
+nav{
+    width: 150px;
+    margin:0px;
+}
+div{
+    align-items: center;
+    margin: 0 auto;
+}
+.welcome-blog{
+align-items: center;
+}
+.welcome-text{
+display:none;
+}
+.footer-md{
+    display: none;
+}
+}

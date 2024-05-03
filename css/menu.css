@@ -137,3 +137,21 @@ header a:hover {
     border-radius: 5px;
 }
 
+@media (max-width:768px) {
+nav {
+        width: 150px;
+        margin: 0px;
+    }
+    .middle-menu {
+        display: none;
+    }
+    .footer-md{
+        display: none;
+    }
+    img{
+        width: 150px;
+    }
+    .deli {
+        display: none;
+    }
+}
